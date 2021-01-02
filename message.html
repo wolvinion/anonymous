@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>What do you want to say?</title>
+	<style> 
+		body {
+			background-image: url("https://wallpapershome.com/images/pages/pic_h/23163.jpg");
+			background-repeat: no-repeat;
+			background-position: right top;
+			background-attachment: fixed;
+		}
+		p {
+			margin-top: 70px;
+			font-family: Helvetica, sans-serif;
+			font-size: 60px;
+			color: #eceff1;
+		}
+		#heading {
+			margin-top: 200px;
+			font-family: Helvetica, sans-serif;
+			text-align: center;
+			font-size: 40px;
+			color: #eceff1;
+		}
+		#message {
+			outline: none;
+			border-radius: 50px;
+			background: #FFFFFF;
+			padding: 20px;
+			width: 500px;
+			height: 5px;
+			font-size: 20px;
+			text-align: center;
+			color: #000000;
+			opacity: 0.5;
+		}
+	</style>
+</head>
+<body>
+<div id="heading">This is anonymous. Trust me.</div>
+
+<form method="post" action="https://wolvinion.github.io/practice-1/initial/index.php" target="message.html">
+    <p align="center">
+        <label for="message">What do you want to say</label><br>
+        <input type="text" name="message" id="message">
+    </p>
+    
+</form>
+
+
+</body>
+</html>
